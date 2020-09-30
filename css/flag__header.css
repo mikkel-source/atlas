@@ -1,0 +1,12 @@
+
+.flag__header {
+    height: 5vh;
+    background-color: blue;
+    width: 100vw;
+
+}
+.flag__headercountries {
+    width: 50%;
+    height: 20vh;
+
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.atlas__wrapper {
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(green, blue, green, blue);
+margin: 0 auto;
+}
+
+    
+

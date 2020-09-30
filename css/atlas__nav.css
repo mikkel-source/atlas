@@ -1,0 +1,17 @@
+
+.atlas__nav {
+    max-width: 100%;
+    border: 3px solid pink;
+    height: 10vh;
+}
+.atlas__navlinks {
+    display: flex;
+    justify-content: space-between;
+}
+.article__navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+
+}

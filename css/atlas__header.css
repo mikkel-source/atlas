@@ -1,0 +1,14 @@
+.atlas__headertitle {
+    text-transform: uppercase;
+    color: red;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    line-height: 3em;
+    font-size: 1.5em;
+    
+}
+.atlas__headersubtitle {
+    color: black;
+    font-size: 1em;
+
+}
