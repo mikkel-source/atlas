@@ -1,12 +1,25 @@
+.atlas__body {
+height: 100vh;
+}
+
 
 .flag__header {
-    height: 5vh;
+    height: 15vh;
     background-color: blue;
-    width: 100vw;
-
+    display: flex;
+}
+.flag__form {
+    display: flex;
+    justify-content: space-evenly;
 }
 .flag__headercountries {
     width: 50%;
     height: 20vh;
+    
+}
+.flag__headerInput {
+    width: 45%;
 
 }
+
+

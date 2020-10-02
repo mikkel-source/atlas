@@ -9,26 +9,27 @@
 </head>
 
 <body class="flag__body">
-    <header>
-        <div class="flag__header">
-            <form action="">
+    <div class="atlas__wrapper">
+        <header class="flag__header">
+            <form class="flag__form" action="./result.html">
                 <fieldset>
                     <legend>Alverdens lande</legend>
                     <label for="alverdens lande"> søg alverdens lande
-                        <input type="text" id="alverdens lande">
+                        <input class="flag__headerInput" type="text" id="alverdens lande">
+                        <button class="flag__headersubmit" type="submit">search</button>
                     </label>
                 </fieldset>
             </form>
             <template id="template">
-                <img class="flag__headercountries" src="" alt="">
+
+                <img class="flag__headercountries" src="">
             </template>
 
+        </header>
+        <div class="flaglist">
         </div>
-    </header>
-    <div class="flaglist">
-    </div>
 
-    <script src="./flag.js" defer></script>
+        <script src="./flag.js" defer></script>
 </body>
 
 </html>

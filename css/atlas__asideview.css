@@ -1,77 +1,57 @@
 .atlas__asideview {
-    /* display: flex; */
+    display: flex;
+    
 }
-
-
-
-
 .atlas__asideviewstory {
     border: 3px solid black;
-    max-width: 30%;
-    margin-top: 2em;
-    float: left;
-
-
+    width: 33%;
+    margin-top: 1em;
 }
 .atlas__asideviewstoryheadline {
     text-align: center;
     color: gold;
     -webkit-text-stroke: 1px red;
-    font-size: 1em;
-    text-transform: uppercase;
-
-
-}
-.atlas__asideviewstorytext {
-
+    font-size: .5em;
+    text-transform: capitalize;
 }
 .atlas__asidesviewtorysmalltext {
-    height: 100%;
-    font-size: 1em;
-    columns: 2;
+    font-size: 30%;
+    columns: 3;
+    
     
 }
-.atlas__asideviewstorygoodluck {
-    color: red;
-    line-height: 2em;
-
+.atlas__asidestorygoodluck {
+    color: goldenrod;
+    /* margin: 2em; */
 }
 .atlas__asideviewworld {
     display: flex;
     flex-direction: column;
+    width: 290px
 }
-.fas.fa-globe-europe {
-    font-size: 10em;
+.atlas__globeandtext {
+    display: flex;
+    max-width: 100%;
+}
+    .fas.fa-globe-europe {
+    margin-top: .1em;
     color: purple;
+    font-size: 3em
 }
-.fas.fa-globe-europe::after {
-    content: "Europe";
-    font-size: .3em;
-    color: black;
-    margin-left: 30px;
-    text-transform: capitalize;
-}
-.fas.fa-globe-asia {
-    font-size: 10em;
-}
-.fas.fa-globe-asia::after {
-    content: "asia";
-    font-size: .3em;
-    color: black;
-    margin-left: 30px;
-    text-transform: capitalize;
-    color: brown;
 
+.fas.fa-globe-asia {
+    font-size: 3em;
+    color: darkblue;
 }
+
 .fas.fa-globe-americas {
-    font-size: 10em;
-    float: inline-end;
+    font-size: 3em;
+    color: aquamarine;
+    
 }
-.fas.fa-globe-americas::after {
-    content: "america";
-    text-transform: capitalize;
-    font-size: .3em;
-    margin-left: 30px;
-    color: red;
-    }
+.text {
+    font-size: .5em;
+}
+
+
 
